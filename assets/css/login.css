@@ -1,0 +1,97 @@
+body {
+        font-family: "Arial", sans-serif;
+        background: url("../image/2.webp") no-repeat center center fixed; /* Asegúrate de que 'tu-imagen-de-fondo.jpg' es la ruta correcta */
+        background-size: cover;
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .form-container {
+        width: 100%;
+        max-width: 400px;
+        background: rgba(255, 255, 255, 0.695); /* Fondo semitransparente */
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        padding: 20px;
+      }
+
+      .form h2 {
+        color: #333;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Sombra de texto para mejorar contraste */
+        margin-bottom: 30px;
+      }
+
+      .form-control label {
+        color: #333;
+        font-weight: bold;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Sombra de texto para mejorar contraste */
+        display: block;
+        margin-bottom: 20px;
+      }
+
+      .form-control input[type="email"],
+      .form-control input[type="password"],
+      .form-control input[type="text"],
+      .form-control input[type="checkbox"] {
+        width: calc(100% - 20px);
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: rgba(
+          255,
+          255,
+          255,
+          0.9
+        ); /* Fondo ligeramente transparente para los campos de entrada */
+        color: #333;
+        box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); /* Sombra interna para mejorar la legibilidad */
+      }
+
+      .form-control input[type="checkbox"] + label {
+        display: inline;
+        font-weight: normal;
+        text-shadow: none;
+      }
+
+      button {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        background: #333;
+        color: white;
+        font-size: 1.1em;
+        cursor: pointer;
+        margin-top: 25px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra de botón para darle profundidad */
+      }
+
+      button:hover {
+        background: #555;
+      }
+
+      .form-footer {
+        margin-top: 20px;
+        align-items: center;
+        text-align: center;
+      }
+
+      .form-footer a,
+      .form-footer button {
+        color: #154a80;
+        text-decoration: none;
+        background: none;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+      }
+
+      .form-footer a:hover,
+      .form-footer button:hover {
+        text-decoration: underline;
+      }
+
+      /* Resto del CSS... */

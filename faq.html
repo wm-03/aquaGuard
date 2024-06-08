@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  <link rel="stylesheet" href="assets/css/estilos.css" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <title>FAQ</title>
+</head>
+<body>
+  <section class="container">
+    <nav>
+      <div class="nav__bar">
+        <a href="index.html" class="nav__logo">
+          <img src="assets/image/logo.png" alt="logo" />
+          <span>AquaGuard</span>
+        </a>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-3-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+          <li><a href="index.html#Información">Información</a></li>
+          <li><a href="index.html#carousel">Galería</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="login.php">Login</a></li>
+      </ul>
+    </nav>
+
+    <!-- header -->
+    <br><br><br><br><br>
+    <div class="header">
+      <h1 class="header-title">FAQ</h1>
+      <p class="header-desc">Preguntas Frecuentes</p>
+      <!-- search --> 
+
+      <div class="search">
+        <input type="text" placeholder="Buscar ...">
+        <button>Buscar</button>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="faq-name">
+        <h1 class="faq-header">Tienes <br> Preguntas?</h1>    
+      </div>
+      <img class="faq-img" src="assets/image/faq.png">
+      
+      <div class="faq-box">
+        <div class="faq-wrapper">
+          <input type="checkbox" class="faq-trigger" id="faq-trigger-1">
+          <label class="faq-title" for="faq-trigger-1">¿Cómo funciona?</label>
+          <div class="faq-detail">
+            <br>
+            <h2>
+            El dispositivo usa sensores para medir metales pesados, la temperatura del agua, y la cantidad de agua que fluye a través de él. Estos sensores recogen datos sobre la calidad del agua, que luego se utilizan para determinar si el agua es segura para consumir.
+            </h2>
+          </div>
+        </div>
+
+        <div class="faq-wrapper">
+          <input type="checkbox" class="faq-trigger" id="faq-trigger-2">
+          <label class="faq-title" for="faq-trigger-2">¿Qué protocolos utiliza?</label>
+          <div class="faq-detail">
+            <br>
+            <h2>
+            Para comunicarse y enviar los datos que recoge, el dispositivo probablemente utilice protocolos estándar de comunicación de Internet como HTTP (Protocolo de Transferencia de Hipertexto) o MQTT (Message Queuing Telemetry Transport). MQTT es muy común en dispositivos del Internet de las Cosas (IoT) por su eficiencia en el envío de datos entre dispositivos y sistemas en tiempo real.
+            </h2>
+          </div>
+        </div>
+
+        <div class="faq-wrapper">
+          <input type="checkbox" class="faq-trigger" id="faq-trigger-3">
+          <label class="faq-title" for="faq-trigger-3">¿Necesita internet?</label>
+          <div class="faq-detail">
+            <br>
+            <h2>
+            Sí, el dispositivo necesita conexión a Internet para enviar los datos recogidos a un servidor donde se almacenan y procesan. Estos datos luego son accesibles a través del portal web donde los usuarios pueden ver la información sobre la calidad del agua.
+            </h2>
+          </div>
+        </div>
+
+        <div class="faq-wrapper">
+          <input type="checkbox" class="faq-trigger" id="faq-trigger-4">
+          <label class="faq-title" for="faq-trigger-4">¿Cómo lo conecto a internet?</label>
+          <div class="faq-detail">
+            <br>
+            <h2>
+            Para conectar el dispositivo a Internet, sigue estos pasos:<br><br>
+            
+            1. Conecata tu dispositivo movil a la red indicada en la pantalla LCD.<br><br>
+            2. Se habrirá una ventana en el navegador<br> Selecciona "Connect Wifi" y seleciona la red a la que desees conectar el dispositivo.<br><br>
+            3. Abre el portal web y activa las lecturas en "Enviar lecturas".<br><br>
+            ¡Listo! el dispositivo esta listo para ser utilizado, puedes explorar las diferentes opciones de configuración si así lo deseas.
+            </h2>
+          </div>
+        </div>
+    </div>
+  </section>
+  
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/app.js"></script>
+
+</body>
+</html>
